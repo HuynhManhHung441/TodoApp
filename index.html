@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoApp</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>TodoApp</h1>
+    <div class="wrapper">
+      <form id="todo-form">
+        <input
+          type="text"
+          id="todo-input"
+          placeholder="write anything and hit enter to add"
+          autocomplete="off"
+        />
+        <button id="add-botton">ADD</button>
+      </form>
+      <ul id="todo-list">
+        <li class="todo">
+          <input type="checkbox" id="todo-1" />
+          <label for="todo-1" class="custom-checkbox">
+            <img src="icons/checked_done.svg" alt="done icon" srcset="" />
+          </label>
+          <label for="todo-1" class="todo-text"
+            >write code html, css and js</label
+          >
+          <button class="delete-button">
+            <img src="icons/delete.svg" alt="delete icon" srcset="" />
+          </button>
+        </li>
+        <li class="todo">
+          <input type="checkbox" id="todo-2" />
+          <label for="todo-1" class="custom-checkbox">
+            <img src="icons/checked_done.svg" alt="done icon" srcset="" />
+          </label>
+          <label for="todo-2" class="todo-text">add action for app</label>
+          <button class="delete-button">
+            <img src="icons/delete.svg" alt="delete icon" srcset="" />
+          </button>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
